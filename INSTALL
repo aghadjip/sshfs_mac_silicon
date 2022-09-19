@@ -1,0 +1,5 @@
+cd sshfs
+test -e Makefile.in || autoreconf -i
+./configure
+make
+sudo make install
